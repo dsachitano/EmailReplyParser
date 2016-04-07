@@ -11,6 +11,11 @@ Installation
 Run `mvn clean test package`. A nice and fresh `EmailReplyParser-1.0.jar` file will appear in the `EmailReplyParser/target` directory.
 
 
+Releases
+--------
+I built a release, (see the snapshots dir) using this command: `mvn deploy -DaltDeploymentRepository=snapshot-repo::default::file:./snapshots -Dfile=target/EmailReplyParser-1.1.jar -DgroupId=com.edlio.emailreplyparser -DartifactId=EmailReplyParser -Dpackaging=jar -Dversion=1.1`
+
+
 Example Usage
 -------------
 
